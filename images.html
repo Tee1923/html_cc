@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" alt="no image" width="400">
+    <img src="./image.png" alt="no image" width="400">
+    <picture>
+        <source media="(min-width: 650px)" srcset="./image.png" />
+        <img src="./image.png" alt="" width="400">
+    </picture>
+    <img src="Screenshot 2024-12-31 191157.png" usemap="#image-map">
+
+    <map name="image-map">
+    <area onclick="one()" target="" alt="" title="" href="" coords="307,201,598,305" shape="rect">
+    <area onclick="two()" target="" alt="" title="" href="" coords="256,551,647,649" shape="rect">
+    </map>
+
+    <script>
+        function one() {
+            alert("You clicke on happy");
+        }
+        function two() {
+            alert("You clicked on the text");
+        }
+    </script>
+
+    <video src="" width="" height="" controls muted autoplay></video>
+    <audio src=""></audio> <!-- jo tags video ke liye wahi audio ke liye bhi  -->
+</body>
+</html>
